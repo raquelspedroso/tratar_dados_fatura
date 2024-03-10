@@ -35,4 +35,4 @@ async def create_upload_file(arquivo: UploadFile):
 
 @app.get("/retornartexto")
 def ler_texto():
-    return "texto da gatinha"
+    return "Retorna a mensagem para o front."
